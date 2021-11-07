@@ -1,8 +1,16 @@
 .mainContainer {
   display: flex;
   justify-content: center;
-  width: 100%;
-  margin-top: 64px;
+  width: max-content;
+  margin: auto;
+  background: #fff;
+  border-radius: 8px;
+  padding: 25px;
+  margin-top: 75px;
+}
+
+.mainContainer .credits {
+  
 }
 
 .dataContainer {
@@ -49,4 +57,24 @@ iframe {
 .waveButton.loading {
   pointer-events: none;
   opacity: 0.3;
+}
+
+.play-icon {
+      height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: #1DB954;
+    margin-right: 35px;
+}
+
+.play-icon img {
+    height: 100px;
+}
+
+table a {
+  color: #0f0f0f;
+  text-decoration: none;
+}
+table a div {
+  font-size: 1rem;
 }
