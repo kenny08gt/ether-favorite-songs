@@ -6,7 +6,7 @@ import { getData, getPreview, getTracks } from 'spotify-url-info';
 
 class App  extends React.Component {
 
-
+ 
   constructor(props) {
     super(props);
     this.contractAddress = "0x9F119C04BF39033D699f8Ab6bd8B93293eAA9dD4";
